@@ -1,3 +1,3 @@
-- Ignite Lab
+# Ignite Lab
 
-Creation of components using TypeScript with composition patternm and documentation with StoryBooks
+Application created during Ignite Labs.
