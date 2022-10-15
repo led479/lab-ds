@@ -18,10 +18,10 @@ jobs:
         with:
           node-version: 16
 
-      - Name: Install dependencies
+      - name: Install dependencies
         run: rm -rf node_modules && yarn install --frozen-lockfile
 
-      - Name: Build Storybook
+      - name: Build Storybook
         run: yarn run build-storybook
 
       - name: Deploy Storybook
